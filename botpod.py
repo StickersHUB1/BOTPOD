@@ -8,7 +8,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # Bot configuration
-TOKEN = ''
+TOKEN = '${{ secrets.botpodtoken }}'
 
 # Create an instance of Intents with message intent enabled
 intents = discord.Intents.default()
